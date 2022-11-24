@@ -31,10 +31,10 @@ After downloading the source to my local repository, I opened it an reviewed it 
 >* Repository contains quality README file with description, screenshot, and link to deployed application.
 
 ## Application Quality Screenshots
-The original mock up from the criteria
+**The original mock up from the criteria**
 ![Original Mock up!](/assets/images/01-html-css-git-challenge-demo.png "The original mock up graphic")
 
-My challenge website
+**My challenge website**
 ![My challenge website!](/assets/images/Completed%20Website.jpeg "My challenge website")
 
 ## License
