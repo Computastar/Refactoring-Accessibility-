@@ -75,6 +75,14 @@ p {
     width: 75%;
 }
 
+/* 
+Consolidated .content sections indiviudual <div> img property into one
+*/
+
+.content img {
+    max-height: 200px;
+}
+
 /* This the right bar of the page */
 
 .benefits {
@@ -134,21 +142,10 @@ Condensed the individual benefit classes into one , as they are the same for eac
     margin-bottom: 20px;
     padding: 50px;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
+/*
 
 /* 
-Consolidated the Content section individual h2 into one h2 
+Consolidated the Content section individual h2 into one h2 to remove multiple definitions
 */
 
 h2 {
@@ -163,6 +160,10 @@ h2 {
     padding: 30px;
     text-align: center;
 }
+
+/*
+Changed .footer h2 to h4 to remove already defined h2 conflict in .section
+*/
 
 .footer h4 {
     font-size: 20px;
