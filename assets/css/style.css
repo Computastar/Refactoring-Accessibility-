@@ -8,10 +8,33 @@ default box sizing for page
 }
 
 /* 
+Consolidated the Content section individual h2 into one h2 to remove multiple definitions
+*/
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;    
+}
+
+/* 
 default body background colour
 */
 body {
     background-color: #d9dcd6;
+}
+
+/*
+default anchor styling
+*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*
+default paragraph styling
+*/
+p {
+    font-size: 16px;
 }
 
 /*
@@ -66,21 +89,6 @@ header div unordered list item styling
 }
 
 /*
-default anchor styling
-*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/*
-default paragraph styling
-*/
-p {
-    font-size: 16px;
-}
-
-/*
 hero class styling
 */
 .hero {
@@ -117,6 +125,17 @@ default styling for content section class
     width: 75%;
 }
 
+/*
+Changed the class on the .section sub components to .content-format , they all used the same styling, kept the id to identify individually
+*/
+.content-format {
+    background-color: #0072bb;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
 
 /* 
 Consolidated .content sections indiviudual <div> img property into one
@@ -156,26 +175,6 @@ Condensed the individual benefit classes into one , as they are the same for eac
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/*
-Changed the class on the .section sub components to .content-format , they all used the same styling, kept the id to identify individually
-*/
-.content-format {
-    background-color: #0072bb;
-    color: #ffffff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 300px;
-    margin-bottom: 20px;
-    padding: 50px;
-}
-
-/* 
-Consolidated the Content section individual h2 into one h2 to remove multiple definitions
-*/
-h2 {
-    font-size: 36px;
-    margin-bottom: 20px;    
 }
 
 /*
